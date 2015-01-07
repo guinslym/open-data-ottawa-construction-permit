@@ -53,7 +53,7 @@ def create_a_given_directory():
     if not os.path.exists("open-data-ottawa"):
         os.makedirs("open-data-ottawa")
 
-def download_the_given_file(remote_file_location, local_file_location, file_name):
+def download_the_given_file(remote_file_location, file_name):
     local_file_location = "open-data-ottawa/" + file_name
     urllib.urlretrieve (remote_file_location, local_file_location)
     print(file_name)
@@ -72,7 +72,7 @@ def body():
         #create the directory
         create_a_given_directory()
         #download the file
-        download_the_given_file(remote_file_location, local_file_location, file_name)
+        download_the_given_file(remote_file_location,  file_name)
         
 def main():
     soup = scrape_given_website('http://data.ottawa.ca/dataset/construction-demolition-pool-enclosure-permits-monthly')
@@ -82,3 +82,4 @@ def main():
 
 
 if __name__ == "__main__":
+		main()
