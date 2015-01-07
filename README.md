@@ -20,5 +20,6 @@ This module ease the download of all the file of any data set from [open-data-ot
 * python3 support
 * create a pakage for pypi
 * replace urllib to requests
+* pytest :)
 
 
