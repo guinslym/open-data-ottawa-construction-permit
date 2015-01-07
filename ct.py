@@ -104,6 +104,7 @@ if __name__ == "__main__":
     construction.download_all_the_necessary_file('http://data.ottawa.ca/dataset/construction-demolition-pool-enclosure-permits-monthly')
 
 '''
+Function that I would like to add
 import ct
 #print(dataset = ct.list_of_dataset)
 #or dataset = ct.find_this_dataset('construction')

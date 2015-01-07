@@ -13,7 +13,7 @@ This module ease the download of all the file of any data set from [open-data-ot
 
 		import ct
 		construction = Permit()
-    construction.download_all_the_necessary_file('http://data.ottawa.ca/dataset/construction-demolition-pool-enclosure-permits-monthly')
+		construction.download_all_the_necessary_file('http://data.ottawa.ca/dataset/construction-demolition-pool-enclosure-permits-monthly')
 
 
 ###todo
