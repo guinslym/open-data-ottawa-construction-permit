@@ -1,4 +1,3 @@
-###(this package haven't been release yet on Pypi -- sorry)
 # open-data-ottawa-construction-permit
 
 
